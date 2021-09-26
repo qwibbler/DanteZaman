@@ -1,7 +1,15 @@
 img {
+    display: block;
     padding:50px;
     width: 100%;
-    max-width: 100%;
+    max-width: 1024px;
     height: auto;
     min-width: 30%;
+}
+
+#img-div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 }
